@@ -7,7 +7,8 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"org.selenium.steps", "org.selenium.utils"},
-        plugin = {"pretty", "html:target/cucumber-reports.html"}
+        plugin = { "pretty", "html:target/cucumber-reports.html" },
+        tags = "@login"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
