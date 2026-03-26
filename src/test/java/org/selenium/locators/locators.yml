@@ -1,0 +1,27 @@
+#-------------------------------------------------
+# Login Page Locators
+#-------------------------------------------------
+login:
+  username:
+    type: id
+    value: "user-name"
+  password:
+    type: id
+    value: "password"
+  login_button:
+    type: id
+    value: "login-button"
+  error_message:
+    type: cssSelector
+    value: "h3[data-test='error']"
+
+#-------------------------------------------------
+# Inventory Page Locators
+#-------------------------------------------------
+inventory:
+  title:
+    type: className
+    value: "title"
+  add_to_cart_button:
+    type: xpath
+    value: "//button[text()='Add to cart']"
