@@ -1,10 +1,8 @@
-package org.selenium.steps;
+package org.selenium.utils;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-
-import org.selenium.utils.SeleniumDriverFactory;
 
 public class Hooks {
 
